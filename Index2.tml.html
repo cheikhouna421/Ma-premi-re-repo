@@ -1,94 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UN RESTAURANT </title>
+  <title>RESTAURANT ASSADUL HSMZA</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <img src="https://png.pngtree.com/element_our/png/20180823/health-restaurant-logo-design-template-vector-png_62798.jpg" alt="image" height="100" width="100"align=right>
-  <H1> <CENter> Bienvenu dans votre page de Restaurant <b>RESTAURANT KHADIM RASSOULL</b> </CENter></H1>
-  <nav type="menu">
-    <li>Accuei</li>
-  </br>
-    <li>Nos meilleurs vente</li>
-  </br>
-    <li>Nos plats</li>
-</br>
-  <!-- Ce bouton soumettra le formulaire -->
- <h2><FONt color=blue> UN FORMULAIRE DE COMMANDE </FONt></h2> <hr>
-  <h2><i>Identification de la personne </i></h2>
-    <form>
-      
-    <ul type="cercle">
-    <li><label>Prénom:</label>
-      <input type="text" name="firstName"></li>
-    </br>
-    <li><label> Nom de famille:</label>
-     <input type="text" name="lastName" id="lastName" /></li>
-    </br>
-    <li><label>Email:</label>
-      <input type="text" name="Email" /></li>
-      <br/>
-    <li><label>Adresse:</label>
-      <input type="text" lastName="adresse"/></li>
-      <br/>
-    <li><label >Numero de telephone:</label>
-      <input type="text" name="contact"></li>
-      <br/>
-      <button type="submit">Soumettre les infos</button>
-      <button type="submit">Supprimer tout</button>
->
-    </ul>
-    </form>
-  </h2><hr>
-  <!-- les plats de retaurants -->
-  <h2><font color= blue> Plats de restaurants:</font></h2>
-  <select>
-  <option value="Riz poisson">Riz poisson</option>
-   <option value="Maafe ">Maafe</option> 
-   <option value="Domada">Domada</option> 
-   <option value="Yaasa guinaar">Yaasa guinaar</option>
-   <option value="Thiebu guinaar">Thiebu guinaar</option>
-  </select> 
-   <button type="sumbit">choisissez votre plat prefere</button>
-  </br>
-  <p>Ecris ici votre demande:</p>
-   <textarea name="Ecris votre plat demande"cols="15" rows="4"></textarea>
-   <p>Phtos des plats</p>
-   <img src="https://senecuisine.com/wp-content/uploads/2020/09/thi%C3%A9bou-dieune.jpg" alt="image" height="200" width="200">
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTowcTLDoYyTUQrsCma8DFj1Z1T4-5U_ZzfkIp_QGW9oQOUSAJTZjWT62Rr0PSjjKL5CPc&usqp=CAU" alt="image" height="200" width="200">
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgeDn-BiD2KX-voBRV4kJmwEUMlzV0QtJcdg5-UP_m7XWnKuzenhV0UwT5tm10x_C1w-M&usqp=CAU" alt="image" height="200" width="200">
-   <img src="https://img.cuisineaz.com/400x300/2017/02/05/i120228-sauce-yassa.webp" alt="image" height="200" width="200">
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Cs-03KNlL9XpRSC1jlmqGI7UAdzSxH9UdzRcv0IGP0EOyOd_fIWtmR1gLGzxZOZNQEM&usqp=CAU" alt="image" height="200" width="200">
-   <hr>
-   <video height="400" controls>
-     <source src="Restaurant_de_la_Ferme_-_Restaurant_-_Plaisir(144p).mp4" type="video/mp4">
-     votre navigateur ne supporte pas
-  </video>
+  <section class="top-page">
+    <header class="header">
+      <img src="https://png.pngtree.com/element_our/png/20180823/health-restaurant-logo-design-template-vector-png_62798.jpg"alt="logo ">
+     
+      <nav class="nav ">
+         <li>Acceuil</li>
+         <li>Nos meilleurs plats</li>
+         <li>Nos plats</li>
+      </nav>
+    </header>
+    <center><div>
+          <H1 style="font-family: Arial, Helvetica, sans-serif;font-size:70px;color: white;" ><i> VOTRE GOUT MEILLEURS</i></H1></center>
+    </div>
+  </section>
   
-  </br><HR>
-   <H2><font color=blue> Les prix de notre plats</font></H2>
-     <table border ="1">
-   <tr>
-     <TH>Thiebou dieune</TH>
-     <TH>Maafe</TH>
-     <TH>Domada</TH>
-     <TH>Yassa</TH>
-     <TH>Thiebou guinaar</TH>
-   </tr>
-   <td>1000</td>
-   <td>800</td>
-   <td>800</td>
-   <td>1000</td>
-   <td>1500</td>
-</table>
-</br>
-<footer> 
- <p><b> ree par linformaticien de gestion et etant un devolopeur web</b></p>
- <p><b> pour avoir plus dinformations.veuillez contater nous ICI:<font color=blue>765417 24</font></b></p>
- <p><a href="scheikhouna421@gmail.com"></a></p>
-</footer>
+    <!-- Ce bouton soumettra le formulaire -->
+    <div class="Foemulaire" id="Foemulaire">
+      <h2 class="T_Formulaire ">Formulaire d'inscription</h2>
+    <form class="Info_formul">      
+        <li><label>Prénom:</label>
+          <input style="margin-left:80px; space-between;" type=" text" name="firstName">
+        </li>
+        </br>
+        <li><label> Nom de famille:</label>
+          <input type="text" name="lastName" id="lastName" />
+        </li>
+        </br>
+        <li><label>Email:</label>
+          <input type="text" name="Email" />
+        </li>
+        <br />
+        <li><label>Adresse:</label>
+          <input type="text" lastName="adresse" />
+        </li>
+        <br />
+        <li><label>Numero de telephone:</label>
+          <input type="text" name="contact">
+        </li>
+        <br />
+      
+      <div class="button">
+        <div class="button_1">
+          <button type="submit">Soumettre les infos</button>
+        </div>
+        <div class="button_2">
+          <button type="submit">Supprimer tout</button>
+        </div>
+      </div>
+      </form>
+  </div> 
+  </b>
+    <!-- Orientation plats -->    
+    <div class="t_plat">
+    <h2>Plats de restaurants:</h2>    
+    </div>
+    <div class="option">
+    <select>
+      <option value="Riz poisson">Riz poisson</option>
+      <option value="Maafe ">Maafe</option>
+      <option value="Domada">Domada</option>
+      <option value="Yaasa guinaar">Yaasa guinaar</option>
+      <option value="Thiebu guinaar">Thiebu guinaar</option>
+    </select>
+  </div>
+    <div class="sumbit">
+    <button type="sumbit">choisissez votre plat prefere</button>
+    </div>
+</div>
+</b>
+    <!-- les images -->
+    <div class="image">
+    <img src="https://senecuisine.com/wp-content/uploads/2020/09/thi%C3%A9bou-dieune.jpg" alt="image" height="200"width="200">
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTowcTLDoYyTUQrsCma8DFj1Z1T4-5U_ZzfkIp_QGW9oQOUSAJTZjWT62Rr0PSjjKL5CPc&usqp=CAU"
+      alt="image" height="200" width="200">
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgeDn-BiD2KX-voBRV4kJmwEUMlzV0QtJcdg5-UP_m7XWnKuzenhV0UwT5tm10x_C1w-M&usqp=CAU"
+      alt="image" height="200" width="200">
+    <img src="https://img.cuisineaz.com/400x300/2017/02/05/i120228-sauce-yassa.webp"alt="image" height="200"width="200">
+    <img 
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Cs-03KNlL9XpRSC1jlmqGI7UAdzSxH9UdzRcv0IGP0EOyOd_fIWtmR1gLGzxZOZNQEM&usqp=CAU"
+      alt="image" height="200" width="200">
+    </div>
+<hr>
+<!-- css en paragraphe video-->
+<div  class="video">
+<div class="p_video">
+  <p> Cette video vous permet a decouvrir la biologie de ce restautan , mais aussi a ceuillir plus de cnnaissances sur les plats que nous vous propose quautidienement mais egallement le informations necessaires au seint du restaurant.  Clique la video svp :</p> 
+</div>
+<div class="div_video">
+    <video height="400" controls>
+      <source src="Restaurant_de_la_Ferme_-_Restaurant_-_Plaisir(144p).mp4" type="video/mp4">
+    </div>
+    </div>
+    </video>
+  </section>
+    </br>
+    <HR>
+      <div class="titre_2">
+    <H2>Les prix de notre plats</H2>
+  </div>
+    <!-- les prix de plats -->
+    <div class="prix">
+    <table border="1"
+    <tr>
+        <TH>Thiebou dieune</TH>
+        <TH>Maafe</TH>
+        <TH>Domada</TH>
+        <TH>Yassa</TH>
+        <TH>Thiebou guinaar</TH>
+      </tr>
+      <td>1000</td>
+      <td>800</td>
+      <td>800</td>
+      <td>1000</td>
+      <td>1500</td>
+    </tr>
+    </table>    
+  </div>
+    </br>
+    <!-- footer de page -->
+    <footer class="para">
+      <p> Cree par linformaticien de gestion et etant un devolopeur web. Pour avoir plus dinformations.veuillez contater nous ICI: 765417424/782953223</p>
+
+    </footer>
 </body>
+
 </html>
